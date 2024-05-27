@@ -1,0 +1,6 @@
+{
+    "user_mst": "users_tbl_mst",
+    "product_mst": "products_tbl_mst",
+    "review_mst": "review_tbl_mst",
+    "review_feature_ratings": "review_tbl_feature_ratings"
+}

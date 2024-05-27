@@ -1,0 +1,22 @@
+{
+  "name": "review-system",
+  "version": "1.0.0",
+  "description": "Reviewing the products",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Kshitij Pal",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "knex": "^3.1.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.9.7",
+    "sqlite3": "^5.1.7"
+  }
+}
