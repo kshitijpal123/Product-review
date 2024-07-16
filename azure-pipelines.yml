@@ -31,11 +31,3 @@ steps:
       artifactName: 'drop'
       publishLocation: 'Container'
     displayName: 'Publish build artifacts'
-
-  - task: AzureRmWebAppDeployment@4
-    inputs:
-      azureSubscription: 'MyNodeSubscription'
-      appType: 'webAppLinux'
-      appName: 'node-review-system'
-      packageForLinux: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
-    displayName: 'Deploy to Azure App Service'
